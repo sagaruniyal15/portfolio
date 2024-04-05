@@ -1,0 +1,178 @@
+.intro{
+    display: flex;
+    height: calc(100vh-3rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin:0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bgimg{
+    position: absolute;
+    top: 2rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.introContent{
+    height: 100vh;
+    width: 55%;
+    padding: 0.5rem;
+    padding-top: 7.5rem;
+    margin-right: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+}
+
+.hello{
+    font-size: 1.75rem;
+    font-weight: 300;
+}
+
+.name{
+
+    color: blueviolet;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 4rem;
+}
+
+.description{
+    padding-top : 12px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: medium;
+    font-weight: 200;
+    /* text-align: left; */
+    max-width:max-content;
+}
+
+.box{
+    padding-top: 0.7rem;
+    display: flex;
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.roles{
+    padding-right: 8px;
+}
+
+
+@media screen and (max-width:840px) {
+    .introContent{
+        height: auto;
+    }
+    .bgimg{
+        right: -10vw;
+        border-radius: 10%;
+    }
+    .hello{
+        padding-top: 3.7rem;
+        font-size: 3vw;
+    }
+    .name{
+        font-size: 7vw;
+    }
+    .box{
+        padding-top: 0.6rem;
+        font-size: 3vw;
+    }
+    .roles{
+        /* font-size: 3vw; */
+        padding-right: 7px;
+    }
+    .description{
+        font-size: small;
+    }
+}
+
+@media screen and (max-width:680px){
+    .introContent{
+        padding-top: 13rem;
+    }   
+    .hello{
+        padding-top: 0.7rem;
+        font-size: 4vw;
+    }
+    .name{
+        font-size: 6vw;
+    }
+    .box{
+        font-size: 4vw;
+        padding-top: 0.3rem;
+    }
+    
+}
+
+@media screen and (max-width:550px){
+    /* .introContent{
+        padding-top: 19rem;
+    } */
+    .box{
+        font-size: 3vw;
+        padding-top: 0.3rem;
+    }
+    .hello{
+        font-size: 2vw;
+    }
+    .name{
+        font-size: 4vw;
+    }
+    .bgimg{
+        margin-top: 3rem;
+        height: 80vw;
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width:530px){
+    .introContent{
+        padding-top: 11rem;
+    }
+    .bgimg{
+        margin-left: 12rem;
+        height: 80vw;
+        width: 90vw;
+    }
+    .description{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width:530px){
+    .bgimg{
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width:430px){
+    .intro{
+        justify-content: space-between;
+    }
+    .bgimgg{
+        display : flex;
+        justify-content: right;
+    }
+}
+@media screen and (max-width:405px){
+    .description{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:380px){
+    .box{
+        padding-top: 0.5px;
+    }
+    .description{
+        font-size: 7px;
+    }
+    
+}

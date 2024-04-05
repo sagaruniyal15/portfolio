@@ -1,0 +1,181 @@
+#Education{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.edutitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.edudescription{
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
+.edubars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+}
+
+.edubar{
+    display: flex;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+    border: 1px solid rgb(65, 65, 65);
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
+.edubar > img{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin-right: 2rem;
+}
+
+.eduschoolname{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.eduDegree{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.edudate{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.eduGrade{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.edubartext > p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+@media (max-width :945px) {
+    .eduschoolname{
+        font-size: 1.3rem;
+        /* font-weight: 600; */
+    }
+    .eduDegree{
+        font-size: 1rem;
+        /* font-weight: 500; */
+    }
+    .edudate{
+        font-size: 0.8rem;
+        /* font-weight: 400; */
+    }
+    .eduGrade{
+        font-size: 0.9rem;
+        /* font-weight: 500; */
+    }
+    .edubartext > p{
+        font-size: 0.8rem;
+        /* font-weight: 200; */
+    }
+}
+
+@media (max-width :910px) {
+    .eduschoolname{
+        font-size: 1.2rem;
+    }
+    .eduDegree{
+        font-size: 0.9rem;
+    }
+    .edudate{
+        font-size: 0.7rem;
+
+    }
+    .eduGrade{
+        font-size: 0.8rem;
+    }
+    .edubartext > p{
+        font-size: 0.7rem;
+
+    }
+}
+@media (max-width :840px) {
+    .eduschoolname{
+        font-size: 1.1rem;
+    }
+    .eduDegree{
+        font-size: 0.8rem;
+    }
+    .edudate{
+        font-size: 0.6rem;
+
+    }
+    .eduGrade{
+        font-size: 0.7rem;
+    }
+    .edubartext > p{
+        font-size: 0.6;
+
+    }
+    .edubar > img{
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+}
+@media (max-width :685px){
+    .eduschoolname{
+        font-size: 1rem;
+    }
+    .eduDegree{
+        font-size: 0.7rem;
+    }
+    .edudate{
+        font-size: 0.5rem;
+
+    }
+    .eduGrade{
+        font-size: 0.6rem;
+    }
+    .edubartext > p{
+        font-size: 0.4;
+
+    }
+}
+
+@media (max-width :610px){
+    .eduschoolname{
+        font-size: 0.9rem;
+    }
+    .eduDegree{
+        font-size: 0.6rem;
+    }
+    .edudate{
+        font-size: 0.4rem;
+
+    }
+    .eduGrade{
+        font-size: 0.5rem;
+    }
+    .edubartext > p{
+        font-size: 0.2;
+
+    }
+    .edubar > img{
+        height: 1.6rem;
+        width: 1.6rem;
+    }
+}

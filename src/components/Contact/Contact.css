@@ -1,0 +1,73 @@
+.contact{
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact >h2{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.conatctDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.contactname, .contactEmail, .conatctmessage{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(54, 12, 93);
+    background: rgb(40,40,40);
+}
+
+.submitbtn{
+    padding: 0.5rem 3rem;
+    margin: 0.25rem ;
+    background: rgb(255, 253, 253);
+    border-radius: 1rem;
+    box-shadow: 0px 0px 2px 2px rgb(204, 203, 203);
+}
+
+/* .submitbtn :active{
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+} */
+
+.conatctlinks{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.conLink{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}

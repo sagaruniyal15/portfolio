@@ -1,0 +1,97 @@
+.navbar{
+    background: black;
+    height: 5rem;
+    width: 100vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 4rem;
+    /* cursor: pointer; */
+}
+
+.desktopListItem{
+    margin: 1rem;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.desktopListItem:hover{
+    color : blueviolet;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid blueviolet;
+    transition-timing-function: linear;
+    /* transition: 300px; */
+    transition: all 0.1s linear;
+}
+
+
+.resumebtn{
+    background-color: blueviolet;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    border-radius: 2rem;
+    height: 2rem;
+}
+a{
+    color: white;
+}
+
+.active{
+    color: blueviolet;
+    border-bottom: 3px solid blueviolet;
+    padding-bottom: 0.2rem;
+
+}
+
+.navmenu{
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background: rgb(53, 53, 53);
+    border-radius: 1rem;
+}
+
+.BurgerMenu{
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    display: none;
+}
+
+.ListItem{
+    padding: 0.5rem 3rem;
+    margin: 0.25rem ;
+    background: rgb(30, 30, 30);
+    border-radius: 0.5rem;
+}
+@media (max-width :725px) {
+    .BurgerMenu{
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+    .resumebtn{
+        display: none;
+    }
+}
